@@ -1,4 +1,4 @@
-<Project DefaultTargets="CopyOutputs;DeployService" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+<Project DefaultTargets="CopyOutputs;DeployService" xmlns="http://schemas.microsoft.com/developer/msbuild/2019" ToolsVersion="4.0">
 
   <!-- These settings control what the service's name, description etc appear in services.msc task panel. -->
 	<PropertyGroup Label="ServiceMetaData">
