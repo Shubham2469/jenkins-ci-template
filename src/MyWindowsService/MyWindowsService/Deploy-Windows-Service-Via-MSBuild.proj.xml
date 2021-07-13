@@ -64,9 +64,7 @@
     These elements will only be processed when in the context of the
     above Target. This is because of the Condition constraint on these items
     -->
-	<!-- <Import Project="$(ProjectFile)" Condition="'$(ImportProjectFile)'=='true'" /> -->
-	<Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />		
-
+	 <Import Project="$(ProjectFile)" Condition="'$(ImportProjectFile)'=='true'" /> 
 	<!-- 
     Here we need to override the Build target with our own that will 
     generate the correct results.
